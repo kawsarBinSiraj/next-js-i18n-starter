@@ -1,0 +1,160 @@
+{
+    "common": {
+        "appName": "Next.js Starter Kit",
+        "backToHome": "العودة للرئيسية",
+        "loading": "جار التحميل...",
+        "retry": "إعادة المحاولة",
+        "or": "أو"
+    },
+    "home": {
+        "badge": "جاهز للإنتاج",
+        "title": "ابنِ بشكل أسرع بأساس Next.js أنظف",
+        "description": "تدفق مصادقة حديث، وطبقة API موثوقة، وإدارة حالة قابلة للتنبؤ، ونشر بالحاويات جاهز افتراضياً.",
+        "signIn": "تسجيل الدخول",
+        "openDashboard": "فتح لوحة التحكم",
+        "features": {
+            "jwt": {
+                "title": "مصادقة JWT",
+                "description": "حماية المسارات بتوكن محقق وجلسات قائمة على ملفات تعريف الارتباط."
+            },
+            "query": {
+                "title": "React Query",
+                "description": "تخزين تلقائي، وإعادة جلب في الخلفية، وإزالة ازدواجية الطلبات."
+            },
+            "state": {
+                "title": "حالة Zustand",
+                "description": "حالة عامة خفيفة وغير رأيية مع صفر من الكود المتكرر."
+            },
+            "docker": {
+                "title": "جاهز لـ Docker",
+                "description": "Dockerfile متعدد المراحل وإعداد Compose المُحسَّن للتطوير والإنتاج."
+            }
+        }
+    },
+    "auth": {
+        "welcomeBack": "مرحباً بعودتك",
+        "newHere": "جديد هنا؟",
+        "accountRecovery": "استعادة الحساب",
+        "securityUpdate": "تحديث أمني",
+        "verification": "التحقق",
+        "login": {
+            "title": "تسجيل الدخول",
+            "description": "أدخل بيانات اعتمادك للوصول إلى حسابك",
+            "email": "البريد الإلكتروني",
+            "emailPlaceholder": "you@example.com",
+            "password": "كلمة المرور",
+            "passwordPlaceholder": "••••••••",
+            "forgotPassword": "نسيت كلمة المرور؟",
+            "submit": "تسجيل الدخول",
+            "submitting": "جار تسجيل الدخول...",
+            "orContinueWith": "أو تابع باستخدام",
+            "noAccount": "ليس لديك حساب؟",
+            "signUp": "إنشاء حساب"
+        },
+        "signup": {
+            "title": "إنشاء حساب",
+            "description": "أدخل بياناتك أدناه للبدء",
+            "name": "الاسم الكامل",
+            "namePlaceholder": "محمد أحمد",
+            "email": "البريد الإلكتروني",
+            "emailPlaceholder": "you@example.com",
+            "password": "كلمة المرور",
+            "passwordPlaceholder": "••••••••",
+            "confirmPassword": "تأكيد كلمة المرور",
+            "confirmPasswordPlaceholder": "••••••••",
+            "submit": "إنشاء حساب",
+            "submitting": "جار إنشاء الحساب...",
+            "haveAccount": "لديك حساب بالفعل؟",
+            "signIn": "تسجيل الدخول"
+        },
+        "forgot": {
+            "title": "نسيت كلمة المرور؟",
+            "description": "أدخل بريدك الإلكتروني وسنرسل لك رمز إعادة التعيين",
+            "email": "البريد الإلكتروني",
+            "emailPlaceholder": "you@example.com",
+            "submit": "إرسال رمز الإعادة",
+            "submitting": "جار الإرسال...",
+            "backToLogin": "العودة لتسجيل الدخول",
+            "success": {
+                "badge": "تم إرسال البريد الإلكتروني",
+                "title": "تحقق من بريدك الإلكتروني",
+                "description": "إذا كان هذا البريد موجوداً لدينا، ستتلقى رمز إعادة التعيين قريباً.",
+                "backToLogin": "العودة لتسجيل الدخول"
+            }
+        },
+        "reset": {
+            "title": "تعيين كلمة مرور جديدة",
+            "description": "أدخل وأكد كلمة مرورك الجديدة أدناه",
+            "newPassword": "كلمة المرور الجديدة",
+            "newPasswordPlaceholder": "••••••••",
+            "confirmPassword": "تأكيد كلمة المرور",
+            "confirmPasswordPlaceholder": "••••••••",
+            "submit": "تحديث كلمة المرور",
+            "submitting": "جار التحديث...",
+            "backToLogin": "العودة لتسجيل الدخول",
+            "success": {
+                "badge": "تم التحديث",
+                "title": "تم تحديث كلمة المرور",
+                "description": "تم إعادة تعيين كلمة مرورك بنجاح.",
+                "backToLogin": "العودة لتسجيل الدخول"
+            }
+        },
+        "verify": {
+            "title": "تحقق من بريدك الإلكتروني",
+            "description": "أدخل الرمز المكون من 6 أرقام المرسل إلى بريدك الإلكتروني",
+            "code": "الرمز",
+            "codePlaceholder": "000000",
+            "resendCode": "إعادة إرسال الرمز",
+            "submit": "تحقق",
+            "submitting": "جار التحقق...",
+            "backToLogin": "العودة لتسجيل الدخول",
+            "success": {
+                "badge": "تم التحقق",
+                "title": "تم التحقق من البريد الإلكتروني",
+                "description": "تم التحقق من بريدك الإلكتروني بنجاح.",
+                "backToLogin": "العودة لتسجيل الدخول"
+            }
+        },
+        "validation": {
+            "emailRequired": "البريد الإلكتروني مطلوب",
+            "emailInvalid": "عنوان البريد الإلكتروني غير صالح",
+            "passwordRequired": "كلمة المرور مطلوبة",
+            "passwordMin": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+            "nameRequired": "الاسم مطلوب",
+            "nameMin": "يجب أن يكون الاسم حرفين على الأقل",
+            "confirmPasswordRequired": "يرجى تأكيد كلمة المرور",
+            "passwordsNotMatch": "كلمتا المرور غير متطابقتين",
+            "codeRequired": "الرمز مطلوب",
+            "codeInvalid": "يجب أن يتكون من 6 أرقام بالضبط"
+        }
+    },
+    "dashboard": {
+        "secureArea": "منطقة آمنة",
+        "title": "لوحة التحكم",
+        "signOut": "تسجيل الخروج",
+        "signingOut": "جار تسجيل الخروج...",
+        "loadingProfile": "جار تحميل الملف الشخصي...",
+        "failedProfile": "فشل تحميل الملف الشخصي.",
+        "retry": "إعادة المحاولة",
+        "welcome": "مرحباً، {name}",
+        "accountInfo": "معلومات حسابك وتفاصيل الجلسة الحالية.",
+        "profileOverview": "نظرة عامة على الملف الشخصي",
+        "userId": "معرف المستخدم",
+        "profile": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني"
+        }
+    },
+    "metadata": {
+        "home": {
+            "title": "الرئيسية",
+            "description": "قالب Next.js حديث مع مصادقة JWT وZustand وReact Query وإعداد Docker."
+        },
+        "login": { "title": "تسجيل الدخول" },
+        "signup": { "title": "إنشاء حساب" },
+        "forgot": { "title": "نسيت كلمة المرور" },
+        "reset": { "title": "إعادة تعيين كلمة المرور" },
+        "verify": { "title": "التحقق من البريد الإلكتروني" },
+        "dashboard": { "title": "لوحة التحكم" }
+    }
+}

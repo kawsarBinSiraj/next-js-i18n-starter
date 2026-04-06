@@ -1,0 +1,160 @@
+{
+    "common": {
+        "appName": "Next.js Starter Kit",
+        "backToHome": "Back to home",
+        "loading": "Loading...",
+        "retry": "Retry",
+        "or": "Or"
+    },
+    "home": {
+        "badge": "Production-ready starter",
+        "title": "Build Faster With A Cleaner Next.js Foundation",
+        "description": "Modern auth flow, resilient API layer, predictable state management, and containerized deployment out of the box.",
+        "signIn": "Sign In",
+        "openDashboard": "Open Dashboard",
+        "features": {
+            "jwt": {
+                "title": "JWT Authentication",
+                "description": "Secure route protection with verified tokens and cookie-based sessions."
+            },
+            "query": {
+                "title": "React Query",
+                "description": "Automatic caching, background refetching, and request deduplication."
+            },
+            "state": {
+                "title": "Zustand State",
+                "description": "Lightweight, unopinionated global state with zero boilerplate."
+            },
+            "docker": {
+                "title": "Docker Ready",
+                "description": "Optimised multi-stage Dockerfile and Compose setup for dev and prod."
+            }
+        }
+    },
+    "auth": {
+        "welcomeBack": "Welcome back",
+        "newHere": "New here?",
+        "accountRecovery": "Account recovery",
+        "securityUpdate": "Security update",
+        "verification": "Verification",
+        "login": {
+            "title": "Sign in",
+            "description": "Enter your credentials to access your account",
+            "email": "Email",
+            "emailPlaceholder": "you@example.com",
+            "password": "Password",
+            "passwordPlaceholder": "········",
+            "forgotPassword": "Forgot password?",
+            "submit": "Sign in",
+            "submitting": "Signing in...",
+            "orContinueWith": "or continue with",
+            "noAccount": "Don't have an account?",
+            "signUp": "Sign up"
+        },
+        "signup": {
+            "title": "Create account",
+            "description": "Fill in the details below to get started",
+            "name": "Full name",
+            "namePlaceholder": "John Doe",
+            "email": "Email",
+            "emailPlaceholder": "you@example.com",
+            "password": "Password",
+            "passwordPlaceholder": "········",
+            "confirmPassword": "Confirm password",
+            "confirmPasswordPlaceholder": "········",
+            "submit": "Create account",
+            "submitting": "Creating account...",
+            "haveAccount": "Already have an account?",
+            "signIn": "Sign in"
+        },
+        "forgot": {
+            "title": "Forgot password?",
+            "description": "Enter your email and we will send you a reset code",
+            "email": "Email",
+            "emailPlaceholder": "you@example.com",
+            "submit": "Send reset code",
+            "submitting": "Sending...",
+            "backToLogin": "Back to login",
+            "success": {
+                "badge": "Email sent",
+                "title": "Check your email",
+                "description": "If that email exists in our system, you'll receive a reset code shortly.",
+                "backToLogin": "Back to login"
+            }
+        },
+        "reset": {
+            "title": "Set new password",
+            "description": "Enter and confirm your new password below",
+            "newPassword": "New password",
+            "newPasswordPlaceholder": "········",
+            "confirmPassword": "Confirm password",
+            "confirmPasswordPlaceholder": "········",
+            "submit": "Update password",
+            "submitting": "Updating...",
+            "backToLogin": "Back to login",
+            "success": {
+                "badge": "Updated",
+                "title": "Password updated",
+                "description": "Your password has been reset successfully.",
+                "backToLogin": "Back to login"
+            }
+        },
+        "verify": {
+            "title": "Verify your email",
+            "description": "Enter the 6-digit code sent to your email",
+            "code": "Code",
+            "codePlaceholder": "000000",
+            "resendCode": "Resend code",
+            "submit": "Verify",
+            "submitting": "Verifying...",
+            "backToLogin": "Back to login",
+            "success": {
+                "badge": "Verified",
+                "title": "Email verified",
+                "description": "Your email has been verified successfully.",
+                "backToLogin": "Back to login"
+            }
+        },
+        "validation": {
+            "emailRequired": "Email is required",
+            "emailInvalid": "Invalid email address",
+            "passwordRequired": "Password is required",
+            "passwordMin": "Password must be at least 8 characters",
+            "nameRequired": "Name is required",
+            "nameMin": "Name must be at least 2 characters",
+            "confirmPasswordRequired": "Please confirm your password",
+            "passwordsNotMatch": "Passwords do not match",
+            "codeRequired": "Code is required",
+            "codeInvalid": "Must be exactly 6 digits"
+        }
+    },
+    "dashboard": {
+        "secureArea": "Secure area",
+        "title": "Dashboard",
+        "signOut": "Sign out",
+        "signingOut": "Signing out...",
+        "loadingProfile": "Loading profile...",
+        "failedProfile": "Failed to load profile.",
+        "retry": "Retry",
+        "welcome": "Welcome, {name}",
+        "accountInfo": "Your account information and current session details.",
+        "profileOverview": "Profile overview",
+        "userId": "User ID",
+        "profile": {
+            "name": "Name",
+            "email": "Email"
+        }
+    },
+    "metadata": {
+        "home": {
+            "title": "Home",
+            "description": "Modern Next.js boilerplate with JWT auth, Zustand, React Query and Docker setup."
+        },
+        "login": { "title": "Sign in" },
+        "signup": { "title": "Create account" },
+        "forgot": { "title": "Forgot password" },
+        "reset": { "title": "Reset password" },
+        "verify": { "title": "Verify email" },
+        "dashboard": { "title": "Dashboard" }
+    }
+}
